@@ -3,13 +3,12 @@ import React,{ useState } from 'react';
 import './App.css';
 
 function App() {
-  const [showParagraph,setshowParagraph] =  useState(false);4
+  const [showParagraph,setShowParagraph] =  useState(false);
 
+  console.log('App initialized');
+  
   const toggleParagraphHandler =() => {
-
-      const [showParagraph,setshowParagraph] =  useState(false);4
-(((prevShowParagraph) => !prevShowParagraph)
-    );
+    setShowParagraph((prevShowParagraph) => !prevShowParagraph);
   };
   return (
     <div className="app">
