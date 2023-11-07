@@ -1,7 +1,10 @@
 import React from "react";
-
+import Myparagraph from "./mypargrapg";
 const DemoOutput = (prpos) => {
-    return <p>{prpos.show ? "this is new!" : "  "}</p>;
+    console.log("DemoOutput");
+    return(<Myparagraph>{prpos.show ? "this is new!" : "  "}</Myparagraph>
+
+);
 };
 
 export default DemoOutput;
