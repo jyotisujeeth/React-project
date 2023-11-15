@@ -1,9 +1,9 @@
 import React from "react";
 
-const Myparagraph = (props) =>{
+const MyParagraph = (props) =>{
     console.log('Myparagraph is running');
     return( <p>{props.children}</p>
     );
 };
 
-export default Myparagraph;
+export default MyParagraph;

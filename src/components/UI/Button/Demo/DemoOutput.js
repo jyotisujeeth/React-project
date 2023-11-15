@@ -1,13 +1,13 @@
 import React from "react";
-import Myparagraph from "./mypargrapg";
+import MyParagraph from "./MyParagraph";
 const DemoOutput = (prpos) => {
     console.log("DemoOutput");
-    return(<Myparagraph>{prpos.show ? "this is new!" : "  "}</Myparagraph>
+    return(<MyParagraph>{prpos.show ? "this is new!" : "  "}</MyParagraph>
 
 );
 };
 
-export default DemoOutput;
+export default React.memo(DemoOutput);
 
 
 
